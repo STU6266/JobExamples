@@ -1,0 +1,28 @@
+D:\C#\MeinProjekt\obj\Debug\net8.0\MeinProjekt.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\MeinProjekt\bin\Debug\net8.0\MeinProjekt.exe
+D:\C#\MeinProjekt\bin\Debug\net8.0\MeinProjekt.deps.json
+D:\C#\MeinProjekt\bin\Debug\net8.0\MeinProjekt.runtimeconfig.json
+D:\C#\MeinProjekt\bin\Debug\net8.0\MeinProjekt.dll
+D:\C#\MeinProjekt\bin\Debug\net8.0\MeinProjekt.pdb
+D:\C#\MeinProjekt\obj\Debug\net8.0\MeinProjekt.AssemblyInfoInputs.cache
+D:\C#\MeinProjekt\obj\Debug\net8.0\MeinProjekt.AssemblyInfo.cs
+D:\C#\MeinProjekt\obj\Debug\net8.0\MeinProjekt.csproj.CoreCompileInputs.cache
+D:\C#\MeinProjekt\obj\Debug\net8.0\MeinProjekt.dll
+D:\C#\MeinProjekt\obj\Debug\net8.0\refint\MeinProjekt.dll
+D:\C#\MeinProjekt\obj\Debug\net8.0\MeinProjekt.pdb
+D:\C#\MeinProjekt\obj\Debug\net8.0\MeinProjekt.genruntimeconfig.cache
+D:\C#\MeinProjekt\obj\Debug\net8.0\ref\MeinProjekt.dll
+C:\Users\steve\Desktop\steven schule\schule bis 28.06.25\C#\wordGame\bin\Debug\net8.0\MeinProjekt.exe
+C:\Users\steve\Desktop\steven schule\schule bis 28.06.25\C#\wordGame\bin\Debug\net8.0\MeinProjekt.deps.json
+C:\Users\steve\Desktop\steven schule\schule bis 28.06.25\C#\wordGame\bin\Debug\net8.0\MeinProjekt.runtimeconfig.json
+C:\Users\steve\Desktop\steven schule\schule bis 28.06.25\C#\wordGame\bin\Debug\net8.0\MeinProjekt.dll
+C:\Users\steve\Desktop\steven schule\schule bis 28.06.25\C#\wordGame\bin\Debug\net8.0\MeinProjekt.pdb
+C:\Users\steve\Desktop\steven schule\schule bis 28.06.25\C#\wordGame\obj\Debug\net8.0\MeinProjekt.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\steve\Desktop\steven schule\schule bis 28.06.25\C#\wordGame\obj\Debug\net8.0\MeinProjekt.AssemblyInfoInputs.cache
+C:\Users\steve\Desktop\steven schule\schule bis 28.06.25\C#\wordGame\obj\Debug\net8.0\MeinProjekt.AssemblyInfo.cs
+C:\Users\steve\Desktop\steven schule\schule bis 28.06.25\C#\wordGame\obj\Debug\net8.0\MeinProjekt.csproj.CoreCompileInputs.cache
+C:\Users\steve\Desktop\steven schule\schule bis 28.06.25\C#\wordGame\obj\Debug\net8.0\MeinProjekt.dll
+C:\Users\steve\Desktop\steven schule\schule bis 28.06.25\C#\wordGame\obj\Debug\net8.0\refint\MeinProjekt.dll
+C:\Users\steve\Desktop\steven schule\schule bis 28.06.25\C#\wordGame\obj\Debug\net8.0\MeinProjekt.pdb
+C:\Users\steve\Desktop\steven schule\schule bis 28.06.25\C#\wordGame\obj\Debug\net8.0\MeinProjekt.genruntimeconfig.cache
+C:\Users\steve\Desktop\steven schule\schule bis 28.06.25\C#\wordGame\obj\Debug\net8.0\ref\MeinProjekt.dll
