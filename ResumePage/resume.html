@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume – Steven Kemendics</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <!-- Neuer Container für das rechts ausblendende Bild -->
+        <div class="header-bg-image">
+          <img src="images/original-profile.jpg" alt="Steven Kemendics am Schreibtisch" />
+        </div>
+        <div class="profile-container">
+          <img src="images/profil.png" alt="Profile Picture" class="profile-pic">
+          <div class="header-text">
+            <h1>Steven KEMENDICS</h1>
+            <p>Software Developer</p>
+          </div>
+        </div>
+    </header>
+        <nav class="site-nav" role="navigation" aria-label="Primary">
+            <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu">
+                <span class="nav-toggle-bar"></span>
+                <span class="nav-toggle-bar"></span>
+                <span class="nav-toggle-bar"></span>
+            </button>
+            <ul id="primary-nav" class="nav-list">
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="aboutme.html">About Me</a></li>
+                <li><a href="mcdonalds.html">McDonald's</a></li>
+                <li><a href="interspar.html">Interspar</a></li>
+                <li><a href="reiter.html">Reiter</a></li>
+            </ul>
+        </nav>
+
+    <button id="contact-button">Contact Me</button>
+    <main>
+        <div id="modal-overlay"></div>
+        <div id="contact-modal">
+            <h2>Send me a message</h2>
+            <textarea placeholder="Your message..."></textarea>
+            <button id="send-button">Send</button>
+            <button id="close-button">Close</button>
+        </div>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>As a passionate and motivated student pursuing a degree in Software Development, I am eager to apply my foundational knowledge and growing skills in software development to real-world projects. My goal is to gain hands-on experience in coding, problem-solving, and collaborative teamwork at a dynamic tech company. I am committed to continuous learning and excited to contribute innovative solutions while developing my professional abilities.</p>
+        </section>
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li>🔹 Programming Languages: Python, C#, HTML, CSS, JavaScript</li>
+                <li>🔹 IT Knowledge: Basic Microsoft Office, Git</li>
+            </ul>
+        </section>
+        <section id="experience">
+            <h2>Work Experience</h2>
+            <article>
+                <h3>🏢 Heinrich Reiter GmbH – Vienna (2017 – Present)</h3>
+                <p><strong>Warehouse Teamleader/Sales Associate</strong></p>
+                <ul>
+                    <li>Optimized inventory management and logistics processes</li>
+                    <li>Efficient merchandise preparation and customer service</li>
+                    <li>Handled responsibilities both in a team and independently</li>
+                </ul>
+            </article>
+            <article>
+                <h3>🏢 Interspar – Vienna (2014 – 2017)</h3>
+                <p><strong>Sales Associate</strong></p>
+                <ul>
+                    <li>Conducted sales conversations and provided customer consultations</li>
+                    <li>Gained experience in quality control and inventory management systems</li>
+                    <li>Completed training as a TOP Salesperson</li>
+                </ul>
+            </article>
+            <article>
+                <h3>🏢 McDonald's – Deutsch-Wagram (2012 – 2014, 2009 – 2010)</h3>
+                <p><strong>Crew Trainer</strong></p>
+                <ul>
+                    <li>Trained new employees</li>
+                    <li>Maintained quality standards and optimized processes</li>
+                </ul>
+            </article>
+        </section>
+        <section id="strengths">
+            <h2>Personal Strengths</h2>
+            <ul>
+                <li>✔ Ability to Build Relationships</li>
+                <li>✔ Recognizing Potential</li>
+                <li>✔ Responsibility</li>
+                <li>✔ Persuasiveness</li>
+                <li>✔ Positive Attitude</li>
+            </ul>
+        </section>
+        <section id="languages">
+            <h2>Languages</h2>
+            <ul>
+                <li>🌍 German (fluent, written & spoken)</li>
+                <li>🌍 English (fluent, 2-year stay in the USA)</li>
+            </ul>
+        </section>
+        <section id="education">
+            <h2>Education & Training</h2>
+            <ul>
+                <li>🎓 Bachelor’s Degree in Software Development (April 2024 – Present)</li>
+                <li>🎓 Certified Trainer (ISO 17024) (2018)</li>
+                <li>🎓 Business Services Clerk (2010)</li>
+                <li>🎓 Qualified Rural Household Worker (2010)</li>
+                <li>🎓 LFS Obersiebenbrunn – Specialization in Household Management (2005 – 2008)</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-impressum">
+                <a href="impressum.html" target="_blank">Impressum</a>
+            </div>
+            <p class="footer-copy">&copy; 2025 Steven Kemendics</p>
+            <nav class="footer-nav">
+                <a href="https://www.facebook.com/steven.kemendics" target="_blank">
+                    <img src="images/facebook.png" alt="Facebook" class="social-icon">
+                </a>
+                <a href="https://www.linkedin.com/in/steven-kemendics" target="_blank">
+                    <img src="images/linkedin.png" alt="LinkedIn" class="social-icon">
+                </a>
+            </nav>
+        </div>
+    </footer>
+    <script src="scripts/nav.js" defer></script>
+    <script src="scripts/contact.js" defer></script>
+</body>
+</html>

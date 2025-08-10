@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me – Steven Kemendics</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <!-- Neuer Container für das rechts ausblendende Bild -->
+        <div class="header-bg-image">
+          <img src="images/original-profile.jpg" alt="Steven Kemendics am Schreibtisch" />
+        </div>
+        <div class="profile-container">
+          <img src="images/profil.png" alt="Profile Picture" class="profile-pic">
+          <div class="header-text">
+            <h1>Steven KEMENDICS</h1>
+            <p>Software Developer</p>
+          </div>
+        </div>
+    </header>
+        <nav class="site-nav" role="navigation" aria-label="Primary">
+            <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu">
+                <span class="nav-toggle-bar"></span>
+                <span class="nav-toggle-bar"></span>
+                <span class="nav-toggle-bar"></span>
+            </button>
+            <ul id="primary-nav" class="nav-list">
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="aboutme.html">About Me</a></li>
+                <li><a href="mcdonalds.html">McDonald's</a></li>
+                <li><a href="interspar.html">Interspar</a></li>
+                <li><a href="reiter.html">Reiter</a></li>
+            </ul>
+        </nav>
+
+    <button id="contact-button">Contact Me</button>
+
+    <main>
+        <div id="modal-overlay"></div>
+        <div id="contact-modal">
+            <h2>Send me a message</h2>
+            <textarea placeholder="Your message..."></textarea>
+            <button id="send-button">Send</button>
+            <button id="close-button">Close</button>
+        </div>
+        <section>
+          <h2>My Personal and Professional Journey</h2>
+          <!-- Button zum Umschalten zwischen Kurz- und Langfassung -->
+          <button id="toggle-text-btn">Short Version</button>
+
+          <div id="docx-content">
+            <h2>School and Early Challenges</h2>
+            <p>School was always associated with certain challenges for me. At birth, I suffered a kind of stroke that damaged the part of my brain responsible for language. Although a newborn’s brain has an impressive ability to adapt and compensate, learning spelling, grammar, and new languages has always been a special challenge for me.</p>
+            <img src="images/fachbrief.jpg" alt="fachbrief" class="fachbrief">
+            <p>Despite the low expectations many had for me, I refused to be discouraged. In secondary school, I was the only student in the lowest-tier German class whose native language was German — yet I gave my best at every step. Eventually, I decided to attend the Agricultural Technical School (LFS) Obersiebenbrunn, specializing in Home Economics, as it did not require a second foreign language and the subjects offered matched my interests. I successfully completed my studies with a secondary school diploma in Home Economics and an additional qualification as a kindergarten assistant. After a year of practical experience, I also earned my professional certificate in Rural Home Economics and completed an apprenticeship as a Business Services Clerk.</p>
+
+            <h2>Religious Experiences and Personal Growth</h2>
+            <p>I was raised in a religious household. Although I distanced myself from my faith during my youth, I eventually found my own path back and decided to serve a mission for the Church of Jesus Christ of Latter-day Saints. From 2010 to 2012, I served in the United States, specifically in Utah and Wyoming. This experience enriched me spiritually and also provided valuable practical skills: managing a limited budget, organizing tasks, communicating with people from diverse backgrounds, and taking responsibility for specific areas of work.</p>
+            <p>After returning home, I resumed working at McDonald’s while continuing to seek a more fulfilling career path. Within my faith community, I took on various voluntary leadership roles, including serving as the secretary to the bishop and his counselors. These responsibilities taught me organizational skills, leadership, and how to motivate others. Later, I led the teachers’ group, ensuring quality instruction and stepping in for absent teachers when needed. I also took on the responsibility of overseeing the young men (ages 12–18) in our congregation, guiding their personal development and organizing activities.</p>
+            <p>Currently, I serve as the chairperson of a welfare and self-reliance advisory committee, where I help members of my faith community tackle personal challenges and develop skills for self-sufficiency. This role has further strengthened my interpersonal skills, as well as my organizational and mentoring abilities.</p>
+
+            <h2>Professional Development and Future Plans</h2>
+            <img src="images/trainer.jpg" alt="fachtrainer-Zertifikat" class="fachtrainer-certificate">
+            <p>Alongside my work, I’ve continuously sought to develop my skills. While working at Heinrich Reiter GmbH, I completed a course to become a certified trainer (ISO 17024) after discovering during a forklift certification class how much I enjoyed teaching others. Unfortunately, due to the job market, I couldn’t secure a position in this field. Nevertheless, my passion for teaching remains strong.</p>
+            <p>Knowing I didn’t want to work in a warehouse until retirement, I sought new opportunities and discovered BYU Pathway’s online study program. In April 2024, I began a Bachelor’s degree in Software Development. By mid-June 2025, I will have completed my first year and reached the level of a Junior Developer. The following year will focus on web development, culminating in an Associate’s Degree and positioning me at the level of a Senior Web Developer. In my final year, I will specialize in advanced software development, ultimately earning my Bachelor’s degree.</p>
+
+            <h2>Personal Interests and Hobbies</h2>
+            <p>Outside of my professional and religious commitments, I am an avid sports fan. In my youth, I played soccer at the club level before switching to American football at the age of 15. To this day, I follow my favorite team as closely as possible and stay up-to-date with the latest developments.</p>
+            <p>Another passion of mine is video games — especially story-driven games. Titles like <em>Dragon Age</em>, <em>Elder Scrolls Online</em>, the <em>Ezio</em> storyline from <em>Assassin’s Creed</em>, and <em>Telltale’s The Walking Dead</em> series have captivated me the most. I also enjoy sports games, and as a child of the 90s and early 2000s, <em>Super Mario</em> and <em>Pokémon</em> hold a special place in my heart.</p>
+            <p>I am also a fan of the fantasy genre, whether it’s reading books or watching movies. I proudly consider myself both a <em>Harry Potter</em> enthusiast and a dedicated fan of <em>The Lord of the Rings</em> universe.</p>
+            <p>One of my greatest personal joys is building things. I take pride in being a handyman — fixing things around the house myself and even building furniture instead of buying it. Learning new skills and expanding my knowledge constantly brings me satisfaction. I often find that learning something new in one area gives me insights into completely different subjects. If I could have a superpower, it would be to instantly possess all human knowledge and understand every new scientific discovery as it happens. For me, knowledge is power.</p>
+
+            <h2>Conclusion</h2>
+            <p>Through my diverse experiences — whether in school, at work, within my faith, or in my personal life — I have developed qualities such as a strong work ethic, determination, team-building skills, curiosity, and tolerance. These characteristics continue to shape who I am today and will guide me on my future path.</p>
+          </div>          
+        </section>
+    </main>
+    
+    <footer>
+      <div class="footer-container">
+        <div class="footer-impressum">
+          <a href="impressum.html" target="_blank">Impressum</a>
+        </div>
+        <p class="footer-copy">&copy; 2025 Steven Kemendics</p>
+        <nav class="footer-nav">
+          <a href="https://www.facebook.com/steven.kemendics" target="_blank">
+            <img src="images/facebook.png" alt="Facebook" class="social-icon">
+          </a>
+          <a href="https://www.linkedin.com/in/steven-kemendics" target="_blank">
+            <img src="images/linkedin.png" alt="LinkedIn" class="social-icon">
+          </a>
+        </nav>
+      </div>
+    </footer>
+    <script>
+      // Beim Laden der Seite wird der volle Text aus dem HTML in der Variable fullText gespeichert.
+      const docxContent = document.getElementById('docx-content');
+      const fullText = docxContent.innerHTML;
+      let isShort = false;
+      
+      const toggleBtn = document.getElementById('toggle-text-btn');
+      // Definiere hier die Kurzfassung (anpassbar)
+      const shortText = `
+        <p>
+          I am a dedicated and versatile professional with a strong background in home economics, business services, and software development. Overcoming early challenges related to a language impairment from birth, I have developed resilience, determination, and a passion for continuous learning.<br><br>
+          My educational journey began at the Agricultural Technical School (LFS) Obersiebenbrunn, where I earned a diploma in Home Economics and completed additional qualifications as a kindergarten assistant, rural home economics specialist, and business services clerk. These diverse qualifications reflect my commitment to broadening my skill set and adapting to various professional environments.<br><br>
+          In addition to my professional career, I have actively served in leadership roles within the Church of Jesus Christ of Latter-day Saints. My mission in Utah and Wyoming from 2010 to 2012 honed my organizational, financial management, and interpersonal skills. I later held various responsibilities, including secretary to the bishop, teacher group leader, and youth mentor, developing expertise in leadership, teamwork, and mentoring.<br><br>
+          Professionally, I pursued my passion for teaching by becoming a certified trainer while working at Heinrich Reiter GmbH. Although market conditions limited opportunities in this field, my drive to help others grow remains a core motivation. I am currently expanding my skill set through an online Bachelor’s degree in Software Development from BYU Pathway, with a focus on web development and software engineering. My goal is to become a Senior Web Developer and complete my bachelor’s degree by the end of my studies.<br><br>
+          Beyond my professional and educational endeavors, I am passionate about sports, particularly American football, and enjoy playing and following video games with strong storytelling elements. I am also a dedicated handyman who enjoys building and repairing household items.<br><br>
+          Through my varied experiences, I have cultivated key strengths such as hard work, determination, team collaboration, curiosity, and adaptability — qualities that continue to guide me in both my personal and professional growth.
+        </p>
+      `;
+      
+      toggleBtn.addEventListener('click', () => {
+        if (!isShort) {
+          docxContent.innerHTML = shortText;
+          toggleBtn.textContent = "Read more";
+          isShort = true;
+        } else {
+          docxContent.innerHTML = fullText;
+          toggleBtn.textContent = "Short Version";
+          isShort = false;
+        }
+      });
+    </script>
+    <script src="scripts/nav.js" defer></script>
+    <script src="scripts/contact.js" defer></script>
+</body>
+</html>
